@@ -5,6 +5,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+	api.versionsFrom('METEOR@0.9.2.1')
 	api.use("underscore", "client");
     api.addFiles('functionstack.js', "client");
     api.export('FunctionStack');
