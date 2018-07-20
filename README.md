@@ -4,12 +4,12 @@ Easily collect and run functions at once.
 ## Quick Start
 
 ```
-npm i --save functionstack
+npm i --save @flowkey/functionstack
 ```
 
 
 ```js
-import FunctionStack from 'functionstack';
+import FunctionStack from '@flowkey/functionstack';
 
 const myFunctions = new FunctionStack();
 
